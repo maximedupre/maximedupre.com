@@ -4,19 +4,9 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      style={{
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+    <div style={styles.div}>
+      <h1 style={styles.title}>
+        <Link to="/" style={styles.link}>
           {siteTitle}
         </Link>
       </h1>
@@ -30,6 +20,19 @@ Header.propTypes = {
 
 Header.defaultProps = {
   siteTitle: ``,
+}
+
+const styles = {
+  div: {
+    padding: `1.45rem 1.0875rem`,
+  },
+  title: {
+    margin: 0,
+  },
+  link: {
+    color: `white`,
+    textDecoration: `none`,
+  },
 }
 
 export default Header
