@@ -2,6 +2,7 @@
   "name": "maximedupre.com",
   "private": true,
   "dependencies": {
+    "bootstrap": "4.4.1",
     "gatsby": "2.18.12",
     "gatsby-plugin-react-helmet": "3.1.16",
     "gatsby-plugin-sharp": "2.3.5",
