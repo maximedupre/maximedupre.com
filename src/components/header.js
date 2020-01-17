@@ -1,38 +1,40 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { graphql, useStaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
+import React from 'react'
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <div style={styles.div}>
-      <h1 style={styles.title}>
-        <Link to="/" style={styles.link}>
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = () => {
+    const data = useStaticQuery(
+        graphql`
+            query {
+                file(relativePath: { eq: "github-icon.png" }) {
+                    childImageSharp {
+                        fixed(width: 125, height: 125) {
+                            ...GatsbyImageSharpFixed
+                        }
+                    }
+                }
+            }
+        `
+    )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+    return (
+        <header style={styles.header}>
+            <div>
+                Hey, I'm Maxime.
+                <Img fixed={data.file.childImageSharp.fixed} />
+            </div>
+            <div>I live in Montreal, Quebec, Canada.</div>
+            <div>
+                I like to write code and create robust digital experiences.
+            </div>
+        </header>
+    )
 }
 
 const styles = {
-  div: {
-    padding: `1.45rem 1.0875rem`,
-  },
-  title: {
-    margin: 0,
-  },
-  link: {
-    color: `white`,
-    textDecoration: `none`,
-  },
+    header: {
+        padding: '1rem',
+    },
 }
 
 export default Header
