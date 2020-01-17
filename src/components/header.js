@@ -8,7 +8,7 @@ const Header = () => {
             query {
                 file(relativePath: { eq: "github-icon.png" }) {
                     childImageSharp {
-                        fixed(width: 125, height: 125) {
+                        fixed(width: 16, height: 16) {
                             ...GatsbyImageSharpFixed
                         }
                     }
@@ -20,8 +20,7 @@ const Header = () => {
     return (
         <header style={styles.header}>
             <div>
-                Hey, I'm Maxime.
-                <Img fixed={data.file.childImageSharp.fixed} />
+                Hey, I'm Maxime. <Img fixed={data.file.childImageSharp.fixed} />
             </div>
             <div>I live in Montreal, Quebec, Canada.</div>
             <div>
