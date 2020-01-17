@@ -20,7 +20,13 @@ const Header = () => {
     return (
         <header style={styles.header}>
             <div>
-                Hey, I'm Maxime. <Img fixed={data.file.childImageSharp.fixed} />
+                Hey, I'm Maxime.
+                <a
+                    style={styles.githubLink}
+                    href="https://github.com/maximedupre"
+                >
+                    <Img fixed={data.file.childImageSharp.fixed} />
+                </a>
             </div>
             <div>I live in Montreal, Quebec, Canada.</div>
             <div>
@@ -33,6 +39,9 @@ const Header = () => {
 const styles = {
     header: {
         padding: '1rem',
+    },
+    githubLink: {
+        marginLeft: '0.3rem',
     },
 }
 
