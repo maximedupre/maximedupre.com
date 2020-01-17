@@ -17,5 +17,11 @@ module.exports = {
                 path: path.join(__dirname, `src`, `images`),
             },
         },
+        {
+            resolve: `gatsby-plugin-typography`,
+            options: {
+                pathToConfigModule: `src/utils/typography`,
+            },
+        },
     ],
 }
