@@ -1,6 +1,6 @@
 module.exports = {
     plugins: {
-        tailwindcss: { purge: ['./index.html'] },
+        tailwindcss: {},
         autoprefixer: {},
     },
 };
