@@ -10,7 +10,7 @@
     },
     "scripts": {
         "build": "npm-run-all build:*",
-        "build:css": "postcss main.css -o _site/main.css",
+        "build:css": "postcss src/main.css -o dist/main.css",
         "build:template": "eleventy",
         "start": "npm-run-all -p start:*",
         "start:css": "npm run build:css -- --watch --verbose",
