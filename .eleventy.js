@@ -2,8 +2,13 @@ const path = require('path');
 const Image = require('@11ty/eleventy-img');
 
 (async () => {
-    for (let name of ['skytracks', 'holyclony', 'maximedupre']) {
-        await Image('src/images/' + name + '.png', {
+    for (let i of [
+        { name: 'skytracks', ext: 'png' },
+        { name: 'holyclony', ext: 'png' },
+        { name: 'maximedupre', ext: 'png' },
+        { name: 'responsive-ping-pong-images', ext: 'png' },
+    ]) {
+        await Image('src/images/' + i.name + '.' + i.ext, {
             widths: [300],
             formats: ['webp'],
             outputDir: 'dist/images',
