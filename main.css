@@ -565,9 +565,9 @@ video {
   border-color: rgba(73, 88, 103, var(--tw-divide-opacity));
 }
 
-.bg-1 {
+.bg-2 {
   --tw-bg-opacity: 1;
-  background-color: rgba(73, 88, 103, var(--tw-bg-opacity));
+  background-color: rgba(87, 115, 153, var(--tw-bg-opacity));
 }
 
 .bg-5 {
@@ -650,6 +650,11 @@ video {
 
 * {
   --tw-shadow: 0 0 #0000;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 * {
