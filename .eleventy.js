@@ -6,7 +6,6 @@ const Image = require('@11ty/eleventy-img');
         { name: 'skytracks', ext: 'png' },
         { name: 'holyclony', ext: 'png' },
         { name: 'maximedupre', ext: 'png' },
-        { name: 'responsive-ping-pong-images', ext: 'png' },
     ]) {
         await Image('src/images/' + i.name + '.' + i.ext, {
             widths: [300],
