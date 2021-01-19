@@ -3,25 +3,12 @@ layout: main.html
 title: The Conor McGregor Mental Models
 ---
 
-<h1 class="text-xl my-4">The Conor McGregor Mental Models</h1>
+# The Conor McGregor Mental Models
 
-<p>
-    Conor McGregor is a <strong>very</strong> inspiring dude. Everytime I watch
-    one of his interviews,
-    <a href="https://www.youtube.com/watch?v=h3hHqipLj6c"
-        >usually before one of his big fights </a
-    >, I find - scattered around - gold nuggets on his philosophy about his
-    discipline and work ethic, which to me, resonates as a universal truth. My
-    goal is to create a living document and to inventory the man's epic and
-    stoic mindset.
-</p>
+Conor McGregor is a **very** inspiring dude. Everytime I watch
+one of his interviews, (usually before one of his big fights)[https://www.youtube.com/watch?v=h3hHqipLj6c], I find - scattered around - gold nuggets on his philosophy about his discipline and work ethic, which to me, resonates as a universal truth. My goal is to create a living document and to inventory the man's epic and stoic mindset.
 
-<h2 class="text-xl my-4">
-    <a href="https://www.youtube.com/watch?v=h3hHqipLj6c">
-        Conor McGregor talks UFC 257, Khabib & more | Extended Interview | Ariel
-        Helwani’s MMA Show
-    </a>
-</h2>
+## (Conor McGregor talks UFC 257, Khabib & more | Extended Interview | Ariel Helwani’s MMA Show)[https://www.youtube.com/watch?v=h3hHqipLj6c]
 
 <p>
     <a href="https://youtu.be/h3hHqipLj6c?t=1006"
@@ -62,11 +49,7 @@ title: The Conor McGregor Mental Models
     >
 </p>
 
-<h2 class="text-xl my-4">
-    <a href="https://youtube.com/watch?v=mnFueYKI8GE">
-        Conor McGregor on Dustin Poirier rematch, Khabib's retirement and relationship with UFC
-    </a>
-</h2>
+## (Conor McGregor on Dustin Poirier rematch, Khabib's retirement and relationship with UFC)[https://youtube.com/watch?v=mnFueYKI8GE]
 
 <p>
     <a href="https://youtu.be/mnFueYKI8GE?t=766">I'm jacked and I'm shredded, you know. So I'm in a tremendous place, I've put the work in Oscar. That's it, you know. Making weight is difficult, but your know, difficult things are not so difficult when you commit yourself fully and it actuallity they become easy and that's where I am at. i have done this flawlessly, you know, alongside my team, all the work has been calculated and I'm right there I have got my body into a lightweight frame once again and I'm full of energy, my training has ceased, not ceased, but my double sessions, you know, I train most of the times twice a day, my last double slip finished yesterday, not it's just single sessions, the weight is on point, I have bags of energy and I'm very excited to get in a showcase myself at one 155 pounds again. You know, that's it. I've put in the work and I will reap the rewards.</a
@@ -78,12 +61,7 @@ title: The Conor McGregor Mental Models
     >
 </p>
 
-<h2 class="text-xl my-4">
-    <a href="https://www.youtube.com/watch?v=0lzbKIwLc8k">
-        Conor McGregor on UFC 246, Khabib, Mayweather | Extended Interview |
-        Ariel Helwani’s MMA Show
-    </a>
-</h2>
+## (Conor McGregor on UFC 246, Khabib, Mayweather | Extended Interview | Ariel Helwani’s MMA Show)[https://www.youtube.com/watch?v=0lzbKIwLc8k]
 
 <p>
     <a href="https://youtu.be/0lzbKIwLc8k?t=23">
