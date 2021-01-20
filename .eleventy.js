@@ -21,10 +21,14 @@ const Image = require('@11ty/eleventy-img');
     }
 })();
 
-module.exports = {
-    dir: {
-        layouts: 'layouts',
-        input: 'src',
-        output: 'dist',
-    },
+module.exports = function (eleventyConfig) {
+    eleventyConfig.addPassthroughCopy('src/fonts');
+
+    return {
+        dir: {
+            layouts: 'layouts',
+            input: 'src',
+            output: 'dist',
+        },
+    };
 };
