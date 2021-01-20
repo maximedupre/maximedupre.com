@@ -760,6 +760,10 @@ hr {
   --tw-bg-opacity: 0.9;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -784,6 +788,10 @@ hr {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -802,6 +810,10 @@ hr {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mt-5 {
