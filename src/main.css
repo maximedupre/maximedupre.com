@@ -78,11 +78,11 @@
     }
 
     h1 {
-        @apply text-3xl text-2 my-5;
+        @apply text-3xl text-2 my-5 font-black;
     }
 
     h2 {
-        @apply text-2xl text-2 my-4;
+        @apply text-2xl text-2 my-4 font-bold;
     }
 
     a {
