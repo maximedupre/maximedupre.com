@@ -4,14 +4,26 @@
 
 @layer base {
     h1 {
-        @apply text-3xl text-2;
+        @apply text-3xl text-2 mb-4;
     }
 
     h2 {
-        @apply text-2xl text-2;
+        @apply text-2xl text-2 mb-3;
     }
 
     blockquote {
-        @apply pl-5 border-l-4 border-5;
+        @apply pl-5 border-l-4 border-5 shadow;
+    }
+
+    p {
+        @apply mb-2;
+    }
+
+    strong {
+        @apply text-5;
+    }
+
+    em {
+        @apply text-1;
     }
 }
