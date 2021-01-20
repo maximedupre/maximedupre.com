@@ -1,12 +1,12 @@
 ---
 layout: main.html
-title: The Conor McGregor Mental Models
+title: Conor McGregor's Mental Models On Discipline
 ---
 
-# The Conor McGregor Mental Models
+# Conor McGregor's Mental Models On Discipline
 
 Conor McGregor is a **very** inspiring dude. Everytime I watch
-one of his interviews, [usually before one of his big fights](https://www.youtube.com/watch?v=h3hHqipLj6c), I find - scattered around - gold nuggets on his philosophy about his discipline and work ethic, which to me, resonates as a universal truth. My goal is to create a living document and to inventory the man's epic and stoic mindset.
+one of his interviews, [usually before one of his big fights](https://www.youtube.com/watch?v=h3hHqipLj6c), I find - scattered around - gold nuggets about his philosophy on discipline and work ethic, which to me, resonate as a universal truths. My goal is to create a living document and to inventory the man's epic and stoic mindset.
 
 ## [Conor McGregor talks UFC 257, Khabib & more | Extended Interview | Ariel Helwani’s MMA Show](https://www.youtube.com/watch?v=h3hHqipLj6c)
 
