@@ -11,6 +11,10 @@
         @apply text-2xl text-2 mb-3;
     }
 
+    a {
+        @apply hover:underline;
+    }
+
     blockquote {
         @apply pl-5 border-l-4 border-5 shadow;
     }
