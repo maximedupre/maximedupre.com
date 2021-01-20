@@ -782,6 +782,10 @@ em {
   margin-top: 1.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .opacity-0 {
   opacity: 0;
 }
