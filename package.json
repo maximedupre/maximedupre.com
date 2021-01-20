@@ -18,5 +18,8 @@
         "start": "npm-run-all -p start:*",
         "start:css": "npm run build:css -- --watch --verbose",
         "start:template": "npm run build:template -- --serve"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.2"
     }
 }

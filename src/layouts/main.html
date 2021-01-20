@@ -4,10 +4,28 @@
         <meta charset="utf-8" />
         <title>{{ title }}</title>
         <link rel="stylesheet" href="../main.css" />
+        <link
+            rel="stylesheet"
+            href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+        />
     </head>
     <body>
-        <nav class="bg-2 w-full h-10 items-center flex shadow">
-            <a class="container text-white" href="/">Maxime Dupré</a>
+        <nav class="bg-2 w-full h-10 flex shadow">
+            <div class="container text-white flex justify-between items-center">
+                <a class="text-white" href="/">Maxime Dupré</a>
+                <div>
+                    <a
+                        class="text-white mr-2"
+                        href="https://github.com/maximedupre"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        class="text-white mr-2"
+                        href="https://twitter.com/maximehugodupre"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                </div>
+            </div>
         </nav>
         <div class="container mt-5">{{ content | safe }}</div>
     </body>

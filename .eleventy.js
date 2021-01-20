@@ -23,6 +23,12 @@ const Image = require('@11ty/eleventy-img');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/fonts');
+    eleventyConfig.addPassthroughCopy(
+        'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
+    );
+    eleventyConfig.addPassthroughCopy(
+        'node_modules/@fortawesome/fontawesome-free/webfonts',
+    );
 
     return {
         dir: {
