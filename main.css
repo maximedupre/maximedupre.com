@@ -634,6 +634,21 @@ h2 {
   color: rgba(87, 115, 153, var(--tw-text-opacity));
 }
 
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(87, 115, 153, var(--tw-text-opacity));
+}
+
+a {
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgba(254, 95, 85, var(--tw-text-opacity));
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -645,6 +660,12 @@ blockquote {
   padding-left: 1.25rem;
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+blockquote a {
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 blockquote a:hover {
@@ -663,6 +684,10 @@ strong {
 em {
   --tw-text-opacity: 1;
   color: rgba(73, 88, 103, var(--tw-text-opacity));
+}
+
+hr {
+  margin-top: 1.25rem;
 }
 
 .container {
@@ -780,10 +805,6 @@ em {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .opacity-0 {
