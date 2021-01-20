@@ -746,14 +746,14 @@ hr {
   border-color: rgba(73, 88, 103, var(--tw-divide-opacity));
 }
 
+.bg-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(73, 88, 103, var(--tw-bg-opacity));
+}
+
 .bg-2 {
   --tw-bg-opacity: 1;
   background-color: rgba(87, 115, 153, var(--tw-bg-opacity));
-}
-
-.bg-5 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 95, 85, var(--tw-bg-opacity));
 }
 
 .bg-opacity-90 {
