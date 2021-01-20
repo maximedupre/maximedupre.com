@@ -1,5 +1,5 @@
 ---
-layout: article.md
+layout: main.html
 title: Conor McGregor's Mental Models On Discipline
 ---
 
@@ -37,3 +37,9 @@ The following are transcribed quotes from his interviews, which don't necessaril
 > [I find I'm at my best when I must do something and I know I must do it and I do it, I execute it and that's what I'm doing right now and this is what I have done, the training has been phenomenal, my coaches, my team, everyone's been in sync together and we've had a great camp and we're very very happy here and obviously it's good to be back in Las Vegas, I haven't been in Vegas in a while. Very excited, very happy.](https://youtu.be/0lzbKIwLc8k?t=107)
 
 > [I'm gonna got out in the night, I've got an afterparty set. I'm gonna go have a few sips of my proper whiskey, I've abstained from that, I made a promise to myself, I made a promise to my team, I made a promise to my fans, that I would stay 100% fully focused, so I've abstained from that and I miss it you know, I do love my liquid. I'll have a few little sips of at my after-party, I'll take the following day to rest and then the day after that I will engage in a red zone McGregor fast training session like I've done post Diaz 2. After the Diaz 2 fight, I went and had my after-party, I took the day rest after the fight, and I went and I done red zone sprints on the skier. The skier is a stationary machine where you pull the strings down because the leg was jammed up from kicking Diaz's knee and his legs. So I was on crutches and I got that work in and just reset my mind. I just reset my mind, put me back in that training mind. It's so easy for you to finish a fight, have a little celebration and then it's stretching to the next day and then you a bit of bad food and then the next day, then it's kinda hard to pull yourself back in, so I have my plan that I'm gonna set out and that's what it is and I'm gonna have my little celebration, rest the next day and then back into training and then what's next.](https://youtu.be/0lzbKIwLc8k?t=1321)
+
+---
+
+### Want to leave a comment?
+
+Join the discussion at [Twitter](https://twitter.com/maximehugodupre/status/1351957345191002112). Feel free to drop me an [email](mailto:maximedupre@me.com). 💌
