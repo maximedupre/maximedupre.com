@@ -11,6 +11,7 @@ jobs:
               with:
                   persist-credentials: false
             - run: npm i
+            - run: git config --global hub.protocol https
             - run: git config --global user.name "Maxime Dupré"
             - run: git config --global user.email "maximedupre@me.com"
             - run: npm run deploy
