@@ -75,6 +75,7 @@
 
     body {
         font-family: Tenso;
+        @apply pb-5;
     }
 
     h1 {
