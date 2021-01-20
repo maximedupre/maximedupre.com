@@ -12,6 +12,7 @@ jobs:
                   persist-credentials: false
             - run: npm i
             - run: git remote set-url origin git@github.com:maximedupre/maximedupre.com.git
+            - run: git remote add origin https://maximedupre:$GITHUB_TOKEN@github.com/maximedupre/project.git
             - run: git config --global user.name "Maxime Dupré"
             - run: git config --global user.email "maximedupre@me.com"
             - run: npm run deploy
