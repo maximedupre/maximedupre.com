@@ -16,7 +16,7 @@
     "scripts": {
         "build": "npm-run-all build:*",
         "build:css": "postcss src/main.css -o dist/main.css",
-        "build:template": "DEBUG=Eleventy* eleventy",
+        "build:template": "eleventy",
         "deploy": "NODE_ENV=production npm run build && echo maximedupre.com > dist/CNAME && gh-pages -d dist",
         "start": "npm-run-all -p start:*",
         "start:css": "npm run build:css -- --watch --verbose",
