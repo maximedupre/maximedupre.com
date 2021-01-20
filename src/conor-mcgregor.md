@@ -1,5 +1,5 @@
 ---
-layout: main.html
+layout: article.html
 title: Conor McGregor's Mental Models On Discipline
 ---
 
