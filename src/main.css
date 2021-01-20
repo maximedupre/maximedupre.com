@@ -85,8 +85,12 @@
         @apply text-2xl text-2 my-4 font-bold;
     }
 
+    h3 {
+        @apply text-xl text-2 my-3;
+    }
+
     a {
-        @apply hover:underline;
+        @apply hover:underline text-5 font-medium;
     }
 
     blockquote {
@@ -94,7 +98,7 @@
     }
 
     blockquote a {
-        @apply hover:no-underline;
+        @apply hover:no-underline text-black font-normal;
     }
 
     p {
@@ -107,5 +111,9 @@
 
     em {
         @apply text-1;
+    }
+
+    hr {
+        @apply mt-5;
     }
 }
