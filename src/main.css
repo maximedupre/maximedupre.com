@@ -19,6 +19,10 @@
         @apply pl-5 border-l-4 border-5 shadow;
     }
 
+    blockquote a {
+        @apply hover:no-underline;
+    }
+
     p {
         @apply mb-2;
     }
