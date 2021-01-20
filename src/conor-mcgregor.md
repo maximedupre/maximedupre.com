@@ -8,6 +8,8 @@ title: Conor McGregor's Mental Models On Discipline
 Conor McGregor is a **very** inspiring dude. Every time I watch
 one of his interviews, [usually before one of his big fights](https://www.youtube.com/watch?v=h3hHqipLj6c), I find - scattered around - gold nuggets about his philosophy on discipline and work ethic, which to me, resonate as universal truths. My goal is to create a living document and to inventory the man's epic and stoic mindset.
 
+The following are transcribed quotes from his interviews, which don't necessarily translate well as reading material. Each quote is linked to the exact timestamp in the video.
+
 ## [Conor McGregor talks UFC 257, Khabib & more | Extended Interview | Ariel Helwani’s MMA Show](https://www.youtube.com/watch?v=h3hHqipLj6c)
 
 > [Once you're fully committed, things are easy, it's that simple. Hard things become easy when you commit yourself fully and that's what I've done, so I'm very excited to go and showcase myself at 155 pounds. Fully focused.](https://youtu.be/h3hHqipLj6c?t=1006)
