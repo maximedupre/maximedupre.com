@@ -11,7 +11,4 @@ jobs:
               with:
                   persist-credentials: false
             - run: npm i
-            - uses: oleksiyrudenko/gha-git-credentials@v2-latest
-              with:
-                  token: '${{ secrets.GITHUB_TOKEN }}'
             - run: npm run deploy
