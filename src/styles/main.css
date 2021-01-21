@@ -117,4 +117,8 @@
     hr {
         @apply mt-5;
     }
+
+    img {
+        height: inherit;
+    }
 }
