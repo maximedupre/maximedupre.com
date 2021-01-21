@@ -691,6 +691,10 @@ hr {
   margin-top: 1.25rem;
 }
 
+img {
+  height: inherit;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -729,23 +733,6 @@ hr {
   }
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.divide-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(2px * var(--tw-divide-x-reverse));
-  border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
-}
-
-.divide-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgba(73, 88, 103, var(--tw-divide-opacity));
-}
-
 .bg-1 {
   --tw-bg-opacity: 1;
   background-color: rgba(73, 88, 103, var(--tw-bg-opacity));
@@ -760,8 +747,17 @@ hr {
   --tw-bg-opacity: 0.9;
 }
 
+.border-2 {
+  --tw-border-opacity: 1;
+  border-color: rgba(87, 115, 153, var(--tw-border-opacity));
+}
+
 .rounded {
   border-radius: 0.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .block {
@@ -774,10 +770,6 @@ hr {
 
 .table {
   display: table;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .items-center {
@@ -798,6 +790,14 @@ hr {
 
 .h-full {
   height: 100%;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .mt-1 {
@@ -828,10 +828,6 @@ hr {
   opacity: 1;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .absolute {
   position: absolute;
 }
@@ -856,11 +852,6 @@ hr {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
-}
-
-.text-5 {
-  --tw-text-opacity: 1;
-  color: rgba(254, 95, 85, var(--tw-text-opacity));
 }
 
 .text-white {
@@ -954,6 +945,38 @@ hr {
 }
 
 @media (min-width: 640px) {
+  .sm\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:divide-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-x-reverse: 0;
+    border-right-width: calc(2px * var(--tw-divide-x-reverse));
+    border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+
+  .sm\:divide-1 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(73, 88, 103, var(--tw-divide-opacity));
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:list-none {
+    list-style-type: none;
+  }
+
+  .sm\:pl-2 {
+    padding-left: 0.5rem;
+  }
 }
 
 @media (min-width: 768px) {
