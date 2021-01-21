@@ -23,15 +23,17 @@ const Image = require('@11ty/eleventy-img');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/fonts');
-    eleventyConfig.addPassthroughCopy(
-        'node_modules/@fortawesome/fontawesome-free/css/brands.min.css',
-    );
-    eleventyConfig.addPassthroughCopy(
-        'node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css',
-    );
-    eleventyConfig.addPassthroughCopy(
-        'node_modules/@fortawesome/fontawesome-free/webfonts',
-    );
+    eleventyConfig.addPassthroughCopy({
+        'node_modules/@fortawesome/fontawesome-free/css/brands.min.css':
+            'styles/brands.min.css',
+    });
+    eleventyConfig.addPassthroughCopy({
+        'node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css':
+            'styles/fontawesome.min.css',
+    });
+    eleventyConfig.addPassthroughCopy({
+        'node_modules/@fortawesome/fontawesome-free/webfonts': 'webfonts',
+    });
 
     return {
         dir: {
