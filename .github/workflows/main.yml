@@ -15,3 +15,5 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - run: npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+            - run: ls dist/node_modules/@fortawesome/fontawesome-free/css
+            - run: cat dist/node_modules/@fortawesome/fontawesome-free/css/brands.min.css
