@@ -1,4 +1,4 @@
 <div align="center">
-    <p>Hi 🙆🏻‍♂️ ! I like to code, sometimes...most of the time. GG.</p>
+    <p>Hi! I like writing `.js` and `.sol` files. 🚀</p>
 	<img src="lit.gif">
 </div>
