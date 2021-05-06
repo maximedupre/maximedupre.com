@@ -1,6 +1,6 @@
 <div align="center">
     <p>👋🏻</p>
-    <p>I like writing <code>.js</code> and <code>.sol</code> files</p>
+    <p>I like writing <code>.js</code> and <code>.sol</code> files.</p>
     <p>🚀</p>
 	<img src="lit.gif">
 </div>
