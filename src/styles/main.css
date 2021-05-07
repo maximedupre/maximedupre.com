@@ -121,4 +121,16 @@
     img {
         height: inherit;
     }
+
+    .app-link {
+        @apply relative inline-block;
+    }
+
+    .app-text {
+        @apply transition duration-500 opacity-0 group-hover:opacity-100 absolute h-full w-full bg-1 bg-opacity-90 text-white flex items-center justify-center rounded;
+    }
+
+    .app-img {
+        @apply rounded border-2 shadow;
+    }
 }
