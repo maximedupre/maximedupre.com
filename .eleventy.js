@@ -3,9 +3,10 @@ const Image = require('@11ty/eleventy-img');
 
 (async () => {
     for (let i of [
-        { name: 'skytracks', ext: 'png', width: 300 },
         { name: 'holyclony', ext: 'png', width: 300 },
+        { name: 'kisstodo', ext: 'png', width: 300 },
         { name: 'maximedupre', ext: 'png', width: 300 },
+        { name: 'skytracks', ext: 'png', width: 300 },
         { name: 'favicon', ext: 'png', width: 100 },
     ]) {
         await Image('src/images/' + i.name + '.' + i.ext, {
